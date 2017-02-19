@@ -13,7 +13,7 @@ Dialog::Dialog(QWidget *parent) :
     player_->setVideoOutput(videoW_);
     player_->setMedia(QUrl::fromLocalFile("/home/andperqui/Documentos/SOA/media-player/VideoPlayer/video.mov"));
 
-    videoW_->setGeometry(100,100,300,400);
+    videoW_->setGeometry(500,500,300,400);
 
 
     videoW_->show();
