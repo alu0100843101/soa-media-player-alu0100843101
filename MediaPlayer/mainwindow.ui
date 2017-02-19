@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>342</width>
-    <height>314</height>
+    <width>400</width>
+    <height>387</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>342</width>
+     <width>400</width>
      <height>22</height>
     </rect>
    </property>
@@ -38,6 +38,10 @@
     <addaction name="actionPause"/>
     <addaction name="separator"/>
     <addaction name="actionStop"/>
+    <addaction name="separator"/>
+    <addaction name="actionRewind"/>
+    <addaction name="separator"/>
+    <addaction name="actionForward"/>
    </widget>
    <widget class="QMenu" name="menuSound">
     <property name="title">
@@ -60,11 +64,21 @@
    </attribute>
    <addaction name="actionOpen"/>
    <addaction name="separator"/>
+   <addaction name="actionWebcam"/>
+   <addaction name="separator"/>
    <addaction name="actionPlay"/>
    <addaction name="separator"/>
    <addaction name="actionPause"/>
    <addaction name="separator"/>
    <addaction name="actionStop"/>
+   <addaction name="separator"/>
+   <addaction name="actionMute"/>
+   <addaction name="separator"/>
+   <addaction name="actionUnmute"/>
+   <addaction name="separator"/>
+   <addaction name="actionRewind"/>
+   <addaction name="separator"/>
+   <addaction name="actionForward"/>
    <addaction name="separator"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
@@ -123,6 +137,33 @@
    </property>
    <property name="text">
     <string>Unmute</string>
+   </property>
+  </action>
+  <action name="actionRewind">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/icons/rewind.png</normaloff>:/icons/icons/rewind.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rewind</string>
+   </property>
+  </action>
+  <action name="actionForward">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/icons/forward.png</normaloff>:/icons/icons/forward.png</iconset>
+   </property>
+   <property name="text">
+    <string>Forward</string>
+   </property>
+  </action>
+  <action name="actionWebcam">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/icons/webcam.png</normaloff>:/icons/icons/webcam.png</iconset>
+   </property>
+   <property name="text">
+    <string>Webcam</string>
    </property>
   </action>
  </widget>

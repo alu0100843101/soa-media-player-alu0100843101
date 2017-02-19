@@ -25,6 +25,12 @@ private slots:
     void on_actionPlay_triggered();
     void on_actionPause_triggered();
     void on_actionStop_triggered();
+    void on_actionMute_triggered();
+    void on_actionUnmute_triggered();
+    void on_actionRewind_triggered();
+    void on_actionForward_triggered();
+
+    void on_volume_changed(int value);
 
 private:
     Ui::MainWindow *ui;
@@ -32,7 +38,8 @@ private:
     QMediaPlayer *player_;
     QVideoWidget *videoW_;
     QProgressBar *progBar_;
-    QSlider *slider_;
+    QSlider *slider_; //Progress Slider.
+    QSlider* volumeSlider_;
 };
 
 #endif // MAINWINDOW_H
