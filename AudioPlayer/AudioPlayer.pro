@@ -1,14 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-02-19T14:59:02
+# Project created by QtCreator 2017-02-14T00:12:25
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia multimediawidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = AudioPlayer
+TARGET = QMediaPlayer
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -29,3 +29,5 @@ SOURCES += main.cpp\
 HEADERS  += widget.h
 
 FORMS    += widget.ui
+
+QMAKE_CXXFLAGS += -std=gnu++11
