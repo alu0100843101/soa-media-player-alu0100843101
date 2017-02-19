@@ -25,8 +25,9 @@ Tiene las funcionalidades básicas de un Capturador:
  * [QtCreator 5.8](https://www.qt.io/qt5-8/)
  * [Contiene QtModules c++14](https://es.wikipedia.org/wiki/C%2B%2B14)
 
-### Videotutorial
+### Información y Documentación
 
+[QCamera - QT Documentación](http://doc.qt.io/qt-5/qcamera.html)
 [Tutorial QCamera - DuarteCorporation](https://www.youtube.com/watch?v=9oQZPqi47Y8)
 
 
