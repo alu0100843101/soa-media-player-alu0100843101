@@ -2,10 +2,15 @@
 #define DIALOG_H
 
 #include <QDialog>
+#include <QMediaPlayer>
+#include <QVideoWidget>
 
 namespace Ui {
 class Dialog;
 }
+
+class QMediaPlayer;
+class QVideoWidget;
 
 class Dialog : public QDialog
 {
@@ -17,6 +22,9 @@ public:
 
 private:
     Ui::Dialog *ui;
+
+    QMediaPlayer* player_;
+    QVideoWidget* videoW_;
 };
 
 #endif // DIALOG_H
