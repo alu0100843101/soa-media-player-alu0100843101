@@ -9,5 +9,11 @@
         <file>icons/rewind.png</file>
         <file>icons/forward.png</file>
         <file>icons/webcam.png</file>
+        <file>icons/settings.png</file>
+        <file>icons/exit.png</file>
+        <file>icons/help.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/qt-logo.png</file>
     </qresource>
 </RCC>
