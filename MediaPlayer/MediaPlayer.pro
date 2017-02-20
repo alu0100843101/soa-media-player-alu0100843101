@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         mainwindow.cpp \
     settings.cpp \
-    helpdialog.cpp
+    helpdialog.cpp \
+    videosurface.cpp
 
 HEADERS  += mainwindow.h \
     settings.h \
-    helpdialog.h
+    helpdialog.h \
+    videosurface.h
 
 FORMS    += mainwindow.ui \
     settings.ui \
