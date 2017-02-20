@@ -5,6 +5,7 @@
  * All information of this class in - http://doc.qt.io/qt-5/qabstractvideosurface.html -
  * An example in - https://doc.qt.io/archives/4.6/multimedia-videowidget.html -
  *
+ * Trademarks: https://doc.qt.io/archives/4.6/trademarks.html
  * **** Copyright © 2010 Nokia Corporation and/or its subsidiary(-ies) ****
 ***********************************************************************************************/
 
