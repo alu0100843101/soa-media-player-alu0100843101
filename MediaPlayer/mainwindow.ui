@@ -13,7 +13,21 @@
   <property name="windowTitle">
    <string>Media Player</string>
   </property>
-  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>431</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
@@ -114,6 +128,9 @@
    <property name="text">
     <string>Open</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
   </action>
   <action name="actionPlay">
    <property name="icon">
@@ -122,6 +139,9 @@
    </property>
    <property name="text">
     <string>Play</string>
+   </property>
+   <property name="shortcut">
+    <string>Space</string>
    </property>
   </action>
   <action name="actionPause">
@@ -132,6 +152,9 @@
    <property name="text">
     <string>Pause</string>
    </property>
+   <property name="shortcut">
+    <string>Space</string>
+   </property>
   </action>
   <action name="actionStop">
    <property name="icon">
@@ -140,6 +163,9 @@
    </property>
    <property name="text">
     <string>Stop</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
    </property>
   </action>
   <action name="actionMute">
@@ -150,6 +176,9 @@
    <property name="text">
     <string>Mute</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
   </action>
   <action name="actionUnmute">
    <property name="icon">
@@ -158,6 +187,9 @@
    </property>
    <property name="text">
     <string>Unmute</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
    </property>
   </action>
   <action name="actionRewind">
@@ -168,6 +200,9 @@
    <property name="text">
     <string>Rewind</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
   </action>
   <action name="actionForward">
    <property name="icon">
@@ -176,6 +211,9 @@
    </property>
    <property name="text">
     <string>Forward</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
    </property>
   </action>
   <action name="actionWebcam">
@@ -186,6 +224,9 @@
    <property name="text">
     <string>Webcam</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
   </action>
   <action name="actionExit">
    <property name="icon">
@@ -194,6 +235,9 @@
    </property>
    <property name="text">
     <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
    </property>
   </action>
   <action name="actionsettings">
@@ -204,6 +248,9 @@
    <property name="text">
     <string>settings</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
   </action>
   <action name="actionHelp">
    <property name="icon">
@@ -212,6 +259,9 @@
    </property>
    <property name="text">
     <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
    </property>
   </action>
  </widget>

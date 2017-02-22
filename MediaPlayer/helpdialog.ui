@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Help</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>
@@ -26,7 +26,7 @@
      <item>
       <widget class="QLabel" name="textLabel">
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
       </widget>
      </item>
